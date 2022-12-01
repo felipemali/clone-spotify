@@ -1,0 +1,78 @@
+@media (max-width: 600px) {
+  #menu {
+    display: none;
+  }
+  #menu-top #enter {
+    width: 40%;
+  }
+  #menu-top #sign-up {
+    display: none;
+  }
+  #album {
+    flex-direction: column;
+    padding: 1rem 0 1rem 0;
+  }
+  #album #img-album {
+    height: 15rem;
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+
+  #data-playlist {
+    text-align: start;
+  }
+  #data-playlist div :nth-child(2) {
+    display: inline;
+  }
+  #icone-spotify-mobile {
+    width: 20px;
+    vertical-align: middle;
+    padding-left: 1rem;
+  }
+  #data-playlist h1 {
+    font-size: 2rem;
+  }
+  #data-playlist div button {
+    display: none;
+  }
+  #data-playlist div {
+    flex-direction: column;
+    padding: 0;
+  }
+  #data-playlist div h3 {
+    display: none;
+  }
+  #data-playlist p {
+    margin-bottom: 1rem;
+  }
+  #data-views-mobile {
+    display: inline;
+    margin-top: 0.2rem;
+    color: rgb(177, 174, 174);
+    opacity: 0.7;
+    text-transform: lowercase;
+  }
+  #table {
+    width: 100%;
+  }
+  #table table {
+    width: 90%;
+    margin: auto;
+  }
+  #table table tbody tr td:nth-child(1) {
+    display: none;
+  }
+  #table table tbody tr td:nth-child(-n + 6) {
+    font-size: 0.8rem;
+  }
+  #table table thead tr th:nth-child(1) {
+    display: none;
+  }
+  #table table thead tr th:nth-child(5) {
+    display: none;
+  }
+  #table table tbody tr td:nth-child(5) {
+    display: none;
+  }
+}

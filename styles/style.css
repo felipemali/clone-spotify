@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  background: linear-gradient(to bottom, rgb(171, 193, 201), #000, #000);
+  height: 100%;
+}
+#container {
+  width: 100%;
+}
+
+#menu-top {
+  background-color: #41474b;
+  display: flex;
+  justify-content: start;
+  padding: 1rem;
+}
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+#menu-top #sign-up,
+#menu-top #enter {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+  color: #fff;
+}
+#menu-top #sign-up {
+  background-color: transparent;
+  margin-right: 2rem;
+}
+#menu-top #sign-up:hover,
+#menu-top #enter:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+#menu-top #enter {
+  border-radius: 20px 20px;
+  width: 8%;
+  padding: 0.5rem;
+  background-color: rgb(119, 214, 119);
+}
+#menu {
+  width: 20%;
+  height: 100vh;
+  background-color: #000;
+}
+#menu #title-spotify {
+  margin: 2rem 0 0 2rem;
+  width: 60%;
+  color: #fff;
+  font-size: 2rem;
+}
+#menu #title-spotify,
+#menu #nav-menu-lateral {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+#menu #nav-menu-lateral span,
+table tbody tr td span {
+  color: #000;
+}
+#menu #title-spotify span img {
+  vertical-align: middle;
+}
+#menu #nav-menu-lateral {
+  font-size: 1.2rem;
+  line-height: 2.3;
+}
+#menu #nav-menu-lateral ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#menu #nav-menu-lateral ul li:hover {
+  cursor: pointer;
+  color: #fff;
+  transform: translateY(2px);
+  transition: all 0.3s;
+}
+#album {
+  display: flex;
+  background: linear-gradient(180deg, #6f7b80, #43494d);
+  padding: 1rem 0 1rem 2rem;
+}
+#album #img-album {
+  height: 15rem;
+  box-shadow: 8px 5px 5px 5px #43494d;
+}
+#data-playlist {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  width: 100%;
+}
+
+#data-playlist h5,
+h1,
+p {
+  padding: 0.3rem 1rem;
+  margin: 0;
+}
+#data-playlist h5 {
+  margin-top: 2.5rem;
+}
+#data-playlist h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+#data-playlist span,
+#data-playlist div span,
+#table table,
+#menu #nav-menu-lateral ul li {
+  color: rgb(177, 174, 174);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#data-playlist div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+#data-playlist div button {
+  margin: auto 0;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  border-radius: 20px 20px;
+  width: 10%;
+  height: 100%;
+  padding: 0.5rem;
+  border: none;
+  background-color: rgb(119, 214, 119);
+  color: #fff;
+  text-align: center;
+}
+#data-playlist div button:hover {
+  cursor: pointer;
+  transform: translateY(4px);
+  transition: all 0.3s;
+}
+#data-views-mobile {
+  display: none;
+}
+#data-playlist div :nth-child(2) {
+  display: none;
+}
+
+#table {
+  width: 90%;
+  margin: auto;
+  padding-top: 5rem;
+}
+#table table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto;
+}
+#table table tbody tr {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+#table table tbody tr td {
+  border-bottom: 1px solid rgb(31, 30, 30);
+  border-top: 1px solid rgb(31, 30, 30);
+  padding: 1rem;
+}
+#table table tbody tr:hover {
+  background-color: #6f7b80;
+  cursor: pointer;
+}
+#table table tbody tr:hover > td span {
+  color: #6f7b80;
+}
+#table table tbody tr td img {
+  display: inline-block;
+  text-indent: 3rem;
+  vertical-align: middle;
+}
+#play-music {
+  color: #bbe6f8;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+  margin-top: -2.5em;
+  padding: 1rem 0;
+  background-color: #262626;
+}
+#play-music img {
+  width: 28px;
+  margin-left: 0.8rem;
+}
+#play-music :nth-child(3) {
+  width: 32px;
+}
+#play-music img:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
+#play-music div {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  vertical-align: middle;
+}
+#play-music div div {
+  border: 1px solid #6f7b80;
+  width: 100%;
+  margin: 1rem auto;
+}
+#play-music div p {
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
